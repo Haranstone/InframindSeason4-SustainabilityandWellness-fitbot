@@ -1,0 +1,58 @@
+{
+  "id": "96bec7b1-a641-4781-87bd-ba6f78be3d3b",
+  "name": "getBMI",
+  "auto": true,
+  "contexts": [
+    "encodedid-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "encodedid-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "getdietplan",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0f28766d-9ad0-4c6f-8d48-dfd759d35a6d",
+          "name": "menu",
+          "required": false,
+          "dataType": "@menu",
+          "value": "$menu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ef24819f-d2dc-4e13-872f-76e845275a62",
+    "data": [
+      {
+        "text": "Heart Rate",
+        "meta": "@menu",
+        "alias": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

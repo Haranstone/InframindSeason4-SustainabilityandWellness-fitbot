@@ -1,0 +1,65 @@
+[
+  {
+    "value": "Fitbit Profile",
+    "synonyms": [
+      "Fitbit Profile",
+      "fitbit profile",
+      "fitbitprofile",
+      "FITBIT PROFILE"
+    ]
+  },
+  {
+    "value": "BMI",
+    "synonyms": [
+      "BMI",
+      "bmi",
+      "body mass index",
+      "Body Mass Index"
+    ]
+  },
+  {
+    "value": "Calories",
+    "synonyms": [
+      "Calories",
+      "calories"
+    ]
+  },
+  {
+    "value": "Heart Rate",
+    "synonyms": [
+      "Heart Rate",
+      "heart rate",
+      "heart rate zone",
+      "Heart Rate Zone",
+      "heart rate zones"
+    ]
+  },
+  {
+    "value": "Sleep Logs",
+    "synonyms": [
+      "Sleep Logs",
+      "sleep logs",
+      "sleep details"
+    ]
+  },
+  {
+    "value": "Diet Plan",
+    "synonyms": [
+      "Diet Plan",
+      "diet plan",
+      "plan diet",
+      "Plan Diet",
+      "Plan diet"
+    ]
+  },
+  {
+    "value": "Main Menu",
+    "synonyms": [
+      "Main menu",
+      "Main Menu",
+      "main menu",
+      "main Menu",
+      "mainmenu"
+    ]
+  }
+]

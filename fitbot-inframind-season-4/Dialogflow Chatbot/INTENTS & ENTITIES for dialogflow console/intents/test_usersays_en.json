@@ -1,0 +1,60 @@
+[
+  {
+    "id": "13b333b1-f122-4e50-8fff-6a472db8a773",
+    "data": [
+      {
+        "text": "2021--02-19",
+        "meta": "@fitbitDateFormat",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db4c7b2f-6c29-431d-9ee9-ad623842502f",
+    "data": [
+      {
+        "text": "2021-02-18",
+        "meta": "@fitbitDateFormat",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5072da27-5f8a-4fda-b4f3-9dcc444dfec7",
+    "data": [
+      {
+        "text": "today",
+        "meta": "@fitbitDateFormat",
+        "alias": "date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02324888-b96b-4132-99dd-6c89bb6a2574",
+    "data": [
+      {
+        "text": "testing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

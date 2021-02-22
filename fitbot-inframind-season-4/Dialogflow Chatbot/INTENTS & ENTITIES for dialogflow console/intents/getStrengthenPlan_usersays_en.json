@@ -1,0 +1,92 @@
+[
+  {
+    "id": "07eec373-e645-4a7a-ab9c-b0052fd15ba4",
+    "data": [
+      {
+        "text": "Strenghten Plan",
+        "meta": "@dietPlan",
+        "alias": "dietplan",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60106dc9-697c-4709-a81b-4cd411a3bb55",
+    "data": [
+      {
+        "text": "haranshinobi@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57cc2b3a-9741-4476-859e-452ac8d5b698",
+    "data": [
+      {
+        "text": "johnsmith845@hotmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5bec1f3e-555d-4d69-af86-f97a3c204a9f",
+    "data": [
+      {
+        "text": "haranshinobi@yahoo.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9eff910e-013b-42c8-bfd1-0e2f0967d170",
+    "data": [
+      {
+        "text": "hhari246@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aa66e1e5-d0cd-44f9-bf49-1c0ef4b3663b",
+    "data": [
+      {
+        "text": "Strengthen Plan",
+        "meta": "@dietPlan",
+        "alias": "dietplan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

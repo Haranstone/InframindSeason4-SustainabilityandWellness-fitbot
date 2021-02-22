@@ -1,0 +1,128 @@
+/*classes for fitbit animation in fitbit logged in page*/
+
+@import url("https://fonts.googleapis.com/css?family=Dosis:200");
+@font-face {
+  font-family: "font-awesome-extension";
+  src: url("https://github.com/AndreLZGava/font-awesome-extension/blob/master/fonts/font-awesome-extension.eot");
+  src: url("https://github.com/AndreLZGava/font-awesome-extension/blob/master/fonts/font-awesome-extension.eot?#iefix") format("embedded-opentype"), url("https://github.com/AndreLZGava/font-awesome-extension/blob/master/fonts/font-awesome-extension.woff") format("woff"), url("https://github.com/AndreLZGava/font-awesome-extension/blob/master/fonts/font-awesome-extension.ttf") format("truetype"), url("https://github.com/AndreLZGava/font-awesome-extension/blob/master/fonts/font-awesome-extension.svg#font-awesome-extension") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: "Dosis", sans-serif;
+  color: #fff;
+  background: #4d4763;
+}
+
+.fitbit {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 200px;
+  border-radius: 4px;
+}
+.fitbit > .info {
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.wrapper {
+  position: relative;
+  width: 100px;
+  height: 200px;
+  background-color: #000;
+  background: linear-gradient(to top right, #000 50%, #262626 50%, #000 90%);
+  border-radius: 4px;
+}
+.wrapper > .display {
+  width: 100%;
+  height: 80%;
+  border-radius: 0 0 35% 35%;
+  border-bottom: 1px solid #242424;
+  overflow: hidden;
+}
+.wrapper > .display > .slider {
+  width: 500px;
+  height: 100%;
+  transform: translatex(0px);
+  transition: transform 0.5s ease;
+}
+.wrapper > .display > .slider:after {
+  content: "";
+  clear: both;
+}
+.wrapper > .display > .slider > .slide {
+  width: 100px;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.wrapper > .display > .slider > .slide > i {
+  opacity: 1;
+  font-size: 3em;
+  margin: 50% auto 5px;
+  transition: all 0.5s ease 0.5s;
+}
+.wrapper > .display > .slider > .slide > div {
+  margin: 20px auto;
+  font-size: 2em;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease 0.5s;
+}
+.wrapper > .display > .slider > .slide.active > i {
+  opacity: 0.8;
+  font-size: 1.8em;
+  margin-top: 25px;
+}
+.wrapper > .display > .slider > .slide.active > div {
+  opacity: 1;
+}
+.wrapper > button {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -20px;
+  border-radius: 50%;
+  border: 2px solid #1a1a1a;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px 0px #27caff;
+  background: #080808;
+  cursor: pointer;
+  animation: pulsate 0.5s linear 0s alternate infinite;
+}
+.wrapper > button:focus, .wrapper > button:active, .wrapper > button:hover {
+  outline: none;
+}
+.wrapper > button:hover {
+  animation: none;
+  box-shadow: 0 0 15px 0px #27caff;
+}
+
+@keyframes pulsate {
+  0% {
+    box-shadow: 0 0 5px 0px #27caff;
+  }
+  100% {
+    box-shadow: 0 0 25px 0px #27caff;
+  }
+}

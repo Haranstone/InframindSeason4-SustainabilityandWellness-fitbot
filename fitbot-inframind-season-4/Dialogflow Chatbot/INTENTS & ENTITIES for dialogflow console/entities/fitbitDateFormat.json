@@ -1,0 +1,9 @@
+{
+  "id": "239fe35d-3f2a-4fbf-b70e-a8565326d1bf",
+  "name": "fitbitDateFormat",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

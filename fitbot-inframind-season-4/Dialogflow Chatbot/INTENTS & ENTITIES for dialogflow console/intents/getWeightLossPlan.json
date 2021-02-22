@@ -1,0 +1,77 @@
+{
+  "id": "0467f0f1-dd24-450f-8669-6c2d32d1ed8b",
+  "name": "getWeightLossPlan",
+  "auto": true,
+  "contexts": [
+    "getdietplanweightloss"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getDietPlan.getDietPlan-custom",
+      "affectedContexts": [
+        {
+          "name": "mainmenufollowup",
+          "lifespan": 5
+        },
+        {
+          "name": "bye",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0ebf3efb-99a4-4a00-997d-0a396c5d929a",
+          "name": "dietplan",
+          "required": false,
+          "dataType": "@dietPlan",
+          "value": "$dietplan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1f19d3f7-9471-4351-be31-425f3e93adc6",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Enter your Email ID please"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

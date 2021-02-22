@@ -1,0 +1,77 @@
+[
+  {
+    "id": "7848e806-8abb-457f-af74-957aeb4287f0",
+    "data": [
+      {
+        "text": "john876@hotmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aa69c68d-7e85-4c55-b6ec-a6c247a6cc6c",
+    "data": [
+      {
+        "text": "haranstone88@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a91d8fd8-3585-4225-805c-b70b566da809",
+    "data": [
+      {
+        "text": "haranshinobi@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1826948f-c745-4201-a624-e8d3c533312a",
+    "data": [
+      {
+        "text": "hhari246@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "38ee8f8a-482e-451e-8dd9-87994d21ba2c",
+    "data": [
+      {
+        "text": "Weight Loss",
+        "meta": "@dietPlan",
+        "alias": "dietplan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

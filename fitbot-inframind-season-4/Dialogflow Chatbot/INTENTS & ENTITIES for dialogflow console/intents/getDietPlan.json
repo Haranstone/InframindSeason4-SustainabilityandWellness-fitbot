@@ -1,0 +1,62 @@
+{
+  "id": "2a8b031f-896c-4898-bcdc-efbbc26e8420",
+  "name": "getDietPlan",
+  "auto": true,
+  "contexts": [
+    "getdietplan"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "getdietplanweightloss",
+          "lifespan": 5
+        },
+        {
+          "name": "getdietplanweightgain",
+          "lifespan": 5
+        },
+        {
+          "name": "getdietplanstrengthening",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "43b78358-cc22-4456-aaa8-49fd9e5c7b1e",
+          "name": "menu",
+          "required": false,
+          "dataType": "@menu",
+          "value": "$menu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

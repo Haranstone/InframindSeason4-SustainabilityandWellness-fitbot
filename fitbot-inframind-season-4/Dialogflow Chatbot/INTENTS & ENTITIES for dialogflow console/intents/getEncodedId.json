@@ -1,0 +1,57 @@
+{
+  "id": "d3367b3c-091e-4f42-9d1b-336046c1c23e",
+  "name": "getEncodedId",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "encodedid-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "687fcdb2-97d0-4871-b1d8-0cf64174b5c9",
+          "name": "encodedId",
+          "required": true,
+          "dataType": "@encodedId",
+          "value": "$encodedId",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter your encodedId ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

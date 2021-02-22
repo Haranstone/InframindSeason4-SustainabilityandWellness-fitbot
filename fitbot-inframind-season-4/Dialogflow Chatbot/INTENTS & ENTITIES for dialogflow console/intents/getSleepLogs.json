@@ -1,0 +1,54 @@
+{
+  "id": "1d37ccf3-f926-4dfa-a2f0-68fc2e51322a",
+  "name": "getSleepLogs",
+  "auto": true,
+  "contexts": [
+    "encodedid-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "encodedid-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "25776247-3c9d-482a-b2b2-98f281281f94",
+          "name": "menu",
+          "required": false,
+          "dataType": "@menu",
+          "value": "$menu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

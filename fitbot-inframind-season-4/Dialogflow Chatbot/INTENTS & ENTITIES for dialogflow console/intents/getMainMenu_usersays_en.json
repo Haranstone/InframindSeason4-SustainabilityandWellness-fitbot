@@ -1,0 +1,17 @@
+[
+  {
+    "id": "67f3b7f2-4573-486d-9200-9ca33e90457f",
+    "data": [
+      {
+        "text": "Main Menu",
+        "meta": "@menu",
+        "alias": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

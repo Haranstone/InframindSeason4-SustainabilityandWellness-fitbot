@@ -1,0 +1,54 @@
+{
+  "id": "930b103b-0e36-45a2-bb6a-2c4be273ba20",
+  "name": "getFitbitProfile",
+  "auto": true,
+  "contexts": [
+    "encodedid-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "encodedid-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "380291d5-a035-4b01-a9e3-68b77b82ad1d",
+          "name": "menu",
+          "required": false,
+          "dataType": "@menu",
+          "value": "$menu",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

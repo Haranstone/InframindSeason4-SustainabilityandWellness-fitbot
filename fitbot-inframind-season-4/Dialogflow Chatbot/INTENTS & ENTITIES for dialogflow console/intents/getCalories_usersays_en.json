@@ -1,0 +1,70 @@
+[
+  {
+    "id": "f38ffb1c-e92d-4010-a7fe-73f14cf2413d",
+    "data": [
+      {
+        "text": "calories",
+        "meta": "@menu",
+        "alias": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "21e41475-a035-4b6d-9ce6-56ce1bba8816",
+    "data": [
+      {
+        "text": "can i get my ",
+        "userDefined": false
+      },
+      {
+        "text": "calorie log",
+        "meta": "@menu",
+        "alias": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1eb11804-4bd7-4433-900d-c977d4eaaf99",
+    "data": [
+      {
+        "text": "can i get my ",
+        "userDefined": false
+      },
+      {
+        "text": "calories logs",
+        "meta": "@menu",
+        "alias": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "616b48d7-c4a2-46a0-aa0c-c137d0101196",
+    "data": [
+      {
+        "text": "Calories Logs",
+        "meta": "@menu",
+        "alias": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

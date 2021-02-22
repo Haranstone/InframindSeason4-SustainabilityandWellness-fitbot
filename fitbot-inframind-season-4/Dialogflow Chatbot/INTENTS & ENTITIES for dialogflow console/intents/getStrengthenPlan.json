@@ -1,0 +1,77 @@
+{
+  "id": "f186a8cc-8fd9-4487-acc0-ea2686b749f2",
+  "name": "getStrengthenPlan",
+  "auto": true,
+  "contexts": [
+    "getdietplanstrengthening"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getDietPlan.getDietPlan-custom",
+      "affectedContexts": [
+        {
+          "name": "mainmenufollowup",
+          "lifespan": 5
+        },
+        {
+          "name": "bye",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "efe471f8-07fe-46b2-af39-12cbda661111",
+          "name": "dietplan",
+          "required": false,
+          "dataType": "@dietPlan",
+          "value": "$dietplan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8d0ee1dd-8f8b-4d24-91a5-fe67a3e9c0df",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your Email ID in the chat"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

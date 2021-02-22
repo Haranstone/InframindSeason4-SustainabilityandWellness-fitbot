@@ -1,0 +1,64 @@
+[
+  {
+    "id": "cfa0e3b5-698d-400c-a215-c60c35c03960",
+    "data": [
+      {
+        "text": "my email is ",
+        "userDefined": false
+      },
+      {
+        "text": "haranshinobi@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d6777556-7923-49c6-b4bd-c42a90aa6f20",
+    "data": [
+      {
+        "text": "haranstone88@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0edb8969-5bc3-4d2d-94a7-2c671426c793",
+    "data": [
+      {
+        "text": "hhari246@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19b00e04-b589-4085-9d9c-87915c15c158",
+    "data": [
+      {
+        "text": "email",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "f2ef296a-b7e5-494d-9005-eee7b33bf704",
+    "data": [
+      {
+        "text": "Diet Plan",
+        "meta": "@menu",
+        "alias": "menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

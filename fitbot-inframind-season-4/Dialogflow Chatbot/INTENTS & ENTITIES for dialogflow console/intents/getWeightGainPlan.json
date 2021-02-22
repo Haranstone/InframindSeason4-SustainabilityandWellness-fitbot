@@ -1,0 +1,82 @@
+{
+  "id": "31a3ec0b-6f2d-40a0-bac6-fb79e8b89ccb",
+  "name": "getWeightGainPlan",
+  "auto": true,
+  "contexts": [
+    "getdietplanweightgain"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getDietPlan.getDietPlan-custom",
+      "affectedContexts": [
+        {
+          "name": "mainmenufollowup",
+          "lifespan": 5
+        },
+        {
+          "name": "bye",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "dd6cf85d-8432-4a59-8b05-e5d2238b9844",
+          "name": "dietPlan",
+          "required": false,
+          "dataType": "@dietPlan",
+          "value": "$dietPlan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "enter your diet plan ?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "1b8545a6-e5f0-4953-a6bc-52c1b36962b6",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter your email ID in the chat"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

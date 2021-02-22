@@ -1,0 +1,9 @@
+{
+  "id": "d1db083b-b242-4456-8498-4e749c3aa9ec",
+  "name": "sleepGuide",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

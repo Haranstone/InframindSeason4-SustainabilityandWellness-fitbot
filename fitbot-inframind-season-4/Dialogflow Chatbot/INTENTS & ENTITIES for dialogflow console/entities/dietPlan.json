@@ -1,0 +1,9 @@
+{
+  "id": "66916e5b-9a4d-49d9-8b8a-cd07d3af9fa3",
+  "name": "dietPlan",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
